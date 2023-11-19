@@ -1,0 +1,92 @@
+/* Personalización del header */
+header {
+  background-color: #ff0000; /* Fondo rojo */
+}
+
+/*Estilo p*/
+
+p {
+  color: #9194A1;
+  font-size: 19px;
+  font-family: 'Rubik', sans-serif;
+}
+/* Estilo por defecto de los enlaces */
+.nav-link {
+  color: #9194A1; /* Color de texto por defecto */
+}
+
+/* Estilo al pasar el cursor sobre los enlaces */
+.nav-link:hover {
+  color: rgb(250, 87, 87); /* Cambiar el color al pasar el cursor */
+}
+
+/* Estilos del botón LOGIN */
+.btn-login {
+  background-color: rgb(250, 87, 87); /* Fondo rojo */
+  color: #fff; /* Texto blanco */
+  border-radius: 0,3px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+}
+
+/* Estilos generales del header */
+
+.mi-header {
+  margin: 0 1rem; /* Márgenes por defecto para pantallas pequeñas */
+}
+
+/* Estilos para el recuadro detrás de la imagen */
+.background-box-blue {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  background-color: rgb(83, 104, 223);
+  height: 85%;
+  width: 100%;
+  z-index: -1;
+  border-top-left-radius: 8rem;
+  border-bottom-left-radius: 8rem;
+}
+
+
+/* Estilos para el recuadro detrás de la imagen 2 */
+.background-box {
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  background-color: rgb(83, 104, 223);
+  height: 85%;
+  width: 100%;
+  z-index: -1;
+  border-bottom-right-radius: 8rem;
+}
+
+.img-fluid {
+  position: relative; /* Asegura que la imagen esté por encima del recuadro */
+}
+
+
+/*Estilo nav-underline*/
+
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link {
+  color: #9194A1;
+  border-bottom-color: #FA5757;
+}
+
+/* Estilos específicos para pantallas más anchas */
+@media screen and (min-width: 768px) {
+  .mi-header {
+    margin: 0 3rem; /* Márgenes para pantallas de al menos 768px de ancho */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mi-header {
+    margin: 0 5rem; /* Márgenes para pantallas de al menos 1024px de ancho */
+  }
+}
+
+
+
